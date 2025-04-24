@@ -12,7 +12,7 @@ phases:
     commands:
       - echo "Configurando entorno y ejecutando pruebas..."
       - export PYTHONPATH=$PYTHONPATH:$(pwd)
-      - pytest tests/ || echo "Las pruebas fallaron pero seguimos con el build"
+      - pytest tests/
 
   build:
     commands:
