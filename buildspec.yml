@@ -23,5 +23,4 @@ artifacts:
     - '!*.zip'
     - '!.git/**'
     - '!__pycache__/**'
-    - '!.venv/**'
 
